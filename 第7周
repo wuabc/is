@@ -1,0 +1,35 @@
+
+Linux服务器基础管理
+
+
+实验所需 ssh 软件：http://172.24.21.84/tool/putty.exe
+
+1.Centos 7 网络参数设施
+
+    虚拟机：http://172.24.21.84/tool/docker-centos7-root-toor-v18.ova
+     
+    dhclient
+
+    ip addr
+
+    nmtui
+    
+    参考：https://www.krizna.com/centos/setup-network-centos-7/
+
+2. Linux管理软件 Webmin
+
+安装 参考   http://webmin.com/rpm.html
+
+内网下载： http://172.24.21.84/tool/webmin-1.900-1.noarch.rpm
+
+参考： http://172.24.21.84/tool/webmin安装.txt
+
+3.Linux系统管理
+
+借助webmin 安装wen服务器 httpd、代理服务器squid
+
+作业提交至少2张截图：
+
+1） httpd 访问页面；
+
+2）squid 缓存统计数据
