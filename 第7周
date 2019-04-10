@@ -28,6 +28,26 @@ Linux服务器基础管理
 
 借助webmin 安装wen服务器 httpd、代理服务器squid
 
+安装Apache（httpd）
+
+
+(1) yum install -y httpd
+
+
+代理服务器 squid ： 先初始化，后运行
+
+
+修改防火墙设置   （或者直接关闭防火墙  service firewalld stop )
+
+(2) firewall-cmd --permanent --add-port=80/tcp
+
+(3) firewall-cmd --permanent --add-port=3128/tcp
+
+(4) firewall-cmd --permanent --add-port=10000/tcp
+
+(5) systemctl restart firewalld.service
+
+
 作业提交至少2张截图：
 
 1） httpd 访问页面；
