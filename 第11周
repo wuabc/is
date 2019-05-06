@@ -1,0 +1,40 @@
+
+
+一、网络监听
+
+ppt   http://172.24.21.84/tool/ppt/42647-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E6%8A%80%E6%9C%AF%EF%BC%88%E7%AC%AC4%E7%89%88%EF%BC%89-PPT.rar/42647-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E6%8A%80%E6%9C%AF%EF%BC%88%E7%AC%AC4%E7%89%88%EF%BC%89-PPT/
+
+第2章 黑客常用的攻击方法
+
+课本 p40
+
+
+wireshark    http://172.24.21.84/tool/Wireshark_win64_2.0.2.0.1457418327.exe
+
+课本 p44
+
+测试站点：https://demo.testfire.net/login.jsp
+
+
+网络监听的检测和防范    课本 p49
+
+二、arp欺骗
+
+课本   p50
+
+switch sniffer  http://172.24.21.84/tool/SwitchSniffer.rar
+
+iris      http://172.24.21.84/tool/iriss.zip
+
+测试站点：https://demo.testfire.net/login.jsp
+
+
+arp 欺骗攻击的检测和防范    p52
+
+
+三、进程管理
+
+课本 p232
+
+icesword     http://172.24.21.84/tool/IceSword_1.2.2.0.zip
+
