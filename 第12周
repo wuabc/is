@@ -1,0 +1,21 @@
+
+一、网络侦听
+
+ wireshark    http://172.24.21.84/tool/Wireshark_win64_2.0.2.0.1457418327.exe
+
+参考： https://www.jianshu.com/p/55ec409c739e
+
+http.request.method==POST
+
+ip.dst == 172.24.21.170
+
+ip.src == 172.24.21.170
+
+试验场：
+  http://172.24.21.170:8000
+      abc@123.com:abc123    123@abc.com:  ：-）
+      http://172.24.21.170:8000/f/36a24e24b1/   ：-）      
+
+ccproxy  http://172.24.21.84/tool/ccproxysetup7.2.zip
+
+二、 
