@@ -18,9 +18,14 @@ ip.src == 172.24.21.170
 
 ccproxy  http://172.24.21.84/tool/ccproxysetup7.2.zip
 
-二、 
+二、基于 CentOS 搭建个人网盘
 
+   https://cloud.tencent.com/developer/labs/lab/10093
 
+ssh putty: http://172.24.21.84/tool/putty32.exe
+
+           http://172.24.21.84/tool/putty64.exe
+   
 借助webmin方便samba管理
 
     wget  http://172.24.21.84/tool/webmin-1.900-1.noarch.rpm
@@ -28,6 +33,10 @@ ccproxy  http://172.24.21.84/tool/ccproxysetup7.2.zip
     yum -y install perl perl-Net-SSLeay openssl perl-IO-Tty perl-Encode-Detect
     
     rpm -U  webmin-1.900-1.noarch.rpm
+    
+    sudo firewall-cmd --zone=public --permanent --add-port=10000/tcp
+
+    sudo firewall-cmd --reload    
     
     https://ip:10000
     
