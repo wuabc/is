@@ -1,0 +1,72 @@
+
+Kali
+
+https://www.kali.org
+
+https://tools.kali.org
+
+实验内容： https://wizardforcel.gitbooks.io/kali-linux-cookbook/content/ch4.html
+
+
+靶机
+172.24.21.170
+172.24.21.117
+172.24.21.151
+172.24.21.152
+
+
+练习命令
+
+1、  dnsenum --enum  www.sdpt.com
+
+2、  fierce  -dns baidu.com
+
+
+3、  nmap -sP 172.24.21.117
+
+     nmap -sP 172.24.21.170
+
+     nmap -sP 172.24.21.151
+
+4、nping  172.24.21.170
+
+
+5、nmap  172.24.21.170
+
+   nmap -p 22 172.24.21.*
+   
+   nmap -O 172.24.21.170
+
+   nmap -sV 172.24.21.117
+
+** 开启kali ssh
+
+一、配置SSH参数
+
+修改sshd_config文件，命令为：
+
+vi /etc/ssh/sshd_config
+
+将#PasswordAuthentication no的注释去掉，并且将NO修改为YES //kali中默认是yes
+
+将PermitRootLogin without-password修改为
+
+PermitRootLogin yes
+
+二、启动SSH服务
+
+命令为：
+
+/etc/init.d/ssh start
+
+或者
+
+service ssh start
+
+查看SSH服务状态是否正常运行，命令为：
+
+/etc/init.d/ssh status
+
+或者
+
+service ssh status
