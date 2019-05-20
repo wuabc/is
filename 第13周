@@ -3,6 +3,8 @@ Kali
 
 https://www.kali.org
 
+https://www.kali.org/downloads/
+
 https://tools.kali.org
 
 实验内容： https://wizardforcel.gitbooks.io/kali-linux-cookbook/content/ch4.html
@@ -70,3 +72,5 @@ service ssh start
 或者
 
 service ssh status
+
+
