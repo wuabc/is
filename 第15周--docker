@@ -12,6 +12,20 @@ setenforce
 getenforce
 
 
+0、tomcat
+
+docker run -d --name  mycat  -p 8888:8080 tomcat:8.0
+
+docker exec -it mycat /bin/bash
+
+apt-get help
+
+exit
+
+docker stop mycat
+
+docker start mycat
+
 
 1、Docker 组件如何协作
 
@@ -62,4 +76,6 @@ https://docs.docker.com/compose/install/
 Quickstart: Compose and WordPress
 
 https://docs.docker.com/compose/wordpress/
+
+
 
