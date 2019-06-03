@@ -1,0 +1,65 @@
+
+
+可能需要的防火墙命令：
+
+ 
+ sudo firewall-cmd --zone=public --permanent --add-port=10000/tcp
+
+ sudo firewall-cmd --reload 
+
+setenforce
+
+getenforce
+
+
+
+1、Docker 组件如何协作
+
+https://www.cnblogs.com/CloudMan6/p/6774519.html
+
+2、最小的镜像
+
+https://www.cnblogs.com/CloudMan6/p/6788841.html
+
+3、base 镜像
+
+不同 Linux 发行版的区别主要就是 rootfs。
+
+https://www.cnblogs.com/CloudMan6/p/6799197.html
+
+http://7xo6kd.com1.z0.glb.clouddn.com/upload-ueditor-image-20170502-1493737075843061650.jpg
+
+4、镜像的分层结构
+
+https://www.cnblogs.com/CloudMan6/p/6806193.html
+
+5、构建镜像 
+
+https://www.cnblogs.com/CloudMan6/p/6821332.html
+
+Dockerfile 构建镜像
+
+https://www.cnblogs.com/CloudMan6/p/6830067.html
+
+６、docker 管理工具  weave scope   （签到必做）
+
+https://www.cnblogs.com/CloudMan6/p/7655294.html
+
+7、showDoc 容器安装方案  （签到必做）
+
+https://www.showdoc.cc/help?page_id=65610
+
+8、数据收集利器 cAdvisor
+
+https://www.cnblogs.com/CloudMan6/p/7683190.html
+
+9、Docker Compose
+
+Install Docker Compose
+
+https://docs.docker.com/compose/install/
+
+Quickstart: Compose and WordPress
+
+https://docs.docker.com/compose/wordpress/
+
