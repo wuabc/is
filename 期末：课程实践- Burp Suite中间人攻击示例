@@ -1,0 +1,34 @@
+
+课程实践- Burp Suite中间人攻击示例
+
+利用Kali 或  Burp Suite ，设计并完成一次网络安全实验，请描述完整过程、提供必要截图，制作成为pdf文档。
+
+参考：
+
+1、用Burpsuite破解网站密码
+
+   https://jingyan.baidu.com/article/200957619c8739cb0721b4ff.html
+   
+2、Burp Suite新手指南
+
+   http://www.freebuf.com/articles/web/100377.html
+   
+3、Burp Suite详细使用教程-Intruder模块详解
+
+   http://www.freebuf.com/sectool/2079.html
+   
+4、burp suite 使用教程详解（外文翻译转）
+
+   https://www.cnblogs.com/demonspider/archive/2012/08/04/2622474.html
+   
+5、Burp suite 官网
+
+   https://portswigger.net/burp/
+   
+   https://support.portswigger.net/
+   
+6、Kali 官网
+
+   https://www.kali.org/
+   
+   https://docs.kali.org/
