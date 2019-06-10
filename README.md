@@ -9,6 +9,8 @@ BBS交流 http://172.24.21.84
 
 软件资源 http://172.24.21.84/tool
 
+centos 7 ova：  http://172.24.21.84/tool/docker-centos7-root-toor-v18.ova
+
 参考资料：
 
 1、Github 语法 https://help.github.com/en/articles/basic-writing-and-formatting-syntax
