@@ -1,34 +1,19 @@
 
+子项目1  浏览器分析工具
 
-子项目   docker容器部署  （必做）
+借助Chrome浏览器调试功能，实现目标网站的素材抓取
 
-参考： https://github.com/wuabc/is/blob/master/第14周-docker
+1、从目标网站抓取文本内容；
 
-       https://github.com/wuabc/is/blob/master/第15周-docker
+2、从目标网站抓取图片文件；
 
-签到： http://172.24.21.84/bbs/forum.php?mod=viewthread&tid=1109
+3、从目标网站抓取音频文件；
 
-      http://172.24.21.84/bbs/forum.php?mod=viewthread&tid=1113
-      
-      
-子项目   计算机病毒
+4、从目标网站抓取视频文件；
 
-参考：https://github.com/wuabc/is/blob/master/第8周
+============================================================================================
 
-作业签到：http://172.24.21.84/bbs/forum.php?mod=viewthread&tid=1076
-
-
-子项目  远程控制 （必做）
-
-参考：  https://github.com/wuabc/is/blob/master/第3周
-
-作业签到：  http://172.24.21.84/bbs/forum.php?mod=viewthread&tid=1051
-
-
-
-
-
-子项目1  数据隐写和加密
+子项目2  数据隐写和加密
 
 ###  使用Openpuff完成如下数据隐写实验
 
@@ -53,6 +38,16 @@
 
 作业签到：http://172.24.21.84/bbs/forum.php?mod=viewthread&tid=1055
 
+============================================================================================
+
+子项目  远程控制 （必做）
+
+参考：  https://github.com/wuabc/is/blob/master/第3周
+
+作业签到：  http://172.24.21.84/bbs/forum.php?mod=viewthread&tid=1051
+
+============================================================================================
+
 
 
 
@@ -72,20 +67,51 @@
 
 作业签到： http://172.24.21.84/bbs/forum.php?mod=viewthread&tid=1069
 
+============================================================================================
+
+
+子项目6   VPN服务
+
+利用VPN软件搭建VPN服务架构
+
+1、VPN服务器架设；
+
+2、VPN参数设置和账户管理；
+
+3、VPN客户端设置及连接测试；
+
+参考：  https://github.com/wuabc/is/blob/master/第6周
+
+作业签到：http://172.24.21.84/bbs/forum.php?mod=viewthread&tid=1061
+
+
+============================================================================================
+
+子项目   docker容器部署  （必做）
+
+参考： https://github.com/wuabc/is/blob/master/第14周-docker
+
+       https://github.com/wuabc/is/blob/master/第15周-docker
+
+签到： http://172.24.21.84/bbs/forum.php?mod=viewthread&tid=1109
+
+      http://172.24.21.84/bbs/forum.php?mod=viewthread&tid=1113
+      
+      
+子项目   计算机病毒
+
+参考：https://github.com/wuabc/is/blob/master/第8周
+
+作业签到：http://172.24.21.84/bbs/forum.php?mod=viewthread&tid=1076
 
 
 
-子项目4  浏览器分析工具
 
-借助Chrome浏览器调试功能，实现目标网站的素材抓取
 
-1、从目标网站抓取文本内容；
 
-2、从目标网站抓取图片文件；
 
-3、从目标网站抓取音频文件；
 
-4、从目标网站抓取视频文件；
+
 
 
 
@@ -104,20 +130,6 @@
 作业签到：http://172.24.21.84/bbs/forum.php?mod=viewthread&tid=1096
 
 
-
-子项目6   VPN服务
-
-利用VPN软件搭建VPN服务架构
-
-1、VPN服务器架设；
-
-2、VPN参数设置和账户管理；
-
-3、VPN客户端设置及连接测试；
-
-参考：  https://github.com/wuabc/is/blob/master/第6周
-
-作业签到：http://172.24.21.84/bbs/forum.php?mod=viewthread&tid=1061
 
 
 
