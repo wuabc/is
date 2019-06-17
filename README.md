@@ -27,6 +27,8 @@ centos 7 ova：  http://172.24.21.84/tool/docker-centos7-root-toor-v18.ova
 
 ７、进一步学习
 
+（参考链接：https://www.freebuf.com/articles/es/205805.html　　　）
+
 学习国内外知名企业（如：国外的FAANG，国内的BAT等）的安全建设的思路和做法，最快捷的方式当然是入职这样的企业，或者也可以通过这些公司公开的blog，paper或者其他安全相关的资料来学习，如：
 
 Facebook:
