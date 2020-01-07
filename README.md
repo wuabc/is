@@ -1,3 +1,12 @@
+
+#18软件《信息安全》
+
+教材：
+http://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=5a676e35f18f967ee7f36ac2
+
+
+
+
 # 17软件 《信息安全》
 
 教材信息  http://www.ryjiaoyu.com/book/details/6085
