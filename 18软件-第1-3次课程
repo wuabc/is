@@ -20,5 +20,43 @@
 
 ============================================================================================
 
+子项目2  数据隐写和加密
+
+###  数据加密实验
+
+利用在线加密工具，对目标文本加密
+
+http://tool.chinaz.com/Tools/textencrypt.aspx
+
+1、对目标文本进行MD5加密；
+
+2、应用对称加密算法对目标文本加密；
+
+###  使用Openpuff完成如下数据隐写实验   （必做）
+
+官网（中文） https://embeddedsw.net/OpenPuff_Steganography_Home_zh.html
+
+1、将数据隐藏到图片文件中；
+
+2、将数据隐藏到音频文件中；
+
+3、将数据隐藏到视频文件中；
+
+参考： https://github.com/wuabc/is/blob/master/第4周
+
+       https://github.com/wuabc/is/blob/master/第5周
+
+
+============================================================================================
+
+
+
+
+Docker 相关实验
+
+https://github.com/wuabc/is/blob/master/%E7%AC%AC14%E5%91%A8-docker
+
+https://github.com/wuabc/is/blob/master/%E7%AC%AC15%E5%91%A8-docker
+
 
 
