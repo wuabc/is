@@ -94,6 +94,18 @@ http://tool.chinaz.com/Tools/textencrypt.aspx
    https://docs.kali.org/
    
 
+搭建测试用BBS
+
+    docker run --name mysql4bbs  -e MYSQL_ROOT_PASSWORD=toor -d  mysql:5
+
+    docker run --name mybbs  --link mysql4bbs:mysql  -p 180:80  -d  skyzhou/docker-discuz
+    
+    docker ps
+    
+    http://ip:180
+    
+
+
 勇敢探索：Docker 相关实验
 
 https://github.com/wuabc/is/blob/master/%E7%AC%AC14%E5%91%A8-docker
