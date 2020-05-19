@@ -20,6 +20,40 @@
 
 ============================================================================================
 
+DVWA
+Damn Vulnerable Web Application
+
+1、Homepage: http://www.dvwa.co.uk/
+
+     Project Home: https://github.com/ethicalhack3r/DVWA
+     
+     Created by the DVWA team
+
+2、Docker image for DVWA(Damn Vulnerable Web Application)
+
+https://github.com/infoslack/docker-dvwa
+
+Using
+
+Pull image：
+
+	 docker pull infoslack/dvwa
+        
+Start with random mysql password:
+
+                docker run -d -p 280:80 infoslack/dvwa
+                
+Or set environment variable: 
+
+                 docker run -d -p 80:80 -p 3306:3306 -e MYSQL_PASS="mypass" infoslack/dvwa
+
+3、本周实验
+
+https://www.freebuf.com/author/lonehand
+
+
+=============================================================================================
+
 子项目2  数据隐写和加密
 
 ###  数据加密实验
