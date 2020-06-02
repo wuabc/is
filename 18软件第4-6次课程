@@ -1,0 +1,25 @@
+
+1、网络侦听  wireshark   
+
+
+officical site： https://www.wireshark.org/
+
+download： https://www.wireshark.org/download.html
+
+
+参考： https://www.jianshu.com/p/55ec409c739e
+
+http.request.method==POST
+
+ip.dst == 129.204.174.19
+
+ip.src == 129.204.174.19
+
+试验场：
+
+http://129.204.174.19:203
+
+http://129.204.174.19:180
+
+https://129.204.174.19:10000
+
