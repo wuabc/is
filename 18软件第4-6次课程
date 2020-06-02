@@ -1,5 +1,5 @@
 
-1、网络侦听  wireshark   
+一、网络侦听  wireshark   
 
 
 officical site： https://www.wireshark.org/
@@ -22,4 +22,16 @@ http://129.204.174.19:203
 http://129.204.174.19:180
 
 https://129.204.174.19:10000
+
+二、子项目4  代理服务器
+
+使用代理服务器软件实现http代理功能
+
+1、cproxy代理服务设置； （必做）
+
+参考： https://github.com/wuabc/is/blob/master/第2周
+
+2、squid代理服务设置； （必做）
+
+参考： https://github.com/wuabc/is/blob/master/第7周
 
