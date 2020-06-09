@@ -51,6 +51,12 @@ https://www.rejetto.com/hfs/?f=intro
 
 4   ping www.baidu.com   -c 4
 
+5   systemctl stop firewalld
+
+linux  firewall  https://www.cnblogs.com/felixwang2/p/10051075.html
+
+                 https://wangchujiang.com/linux-command/c/firewall-cmd.html
+
 docker 安装    https://docs.docker.com/engine/install/centos/
 
 Nginx 容器版安装 https://hub.docker.com/_/nginx
