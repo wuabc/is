@@ -41,6 +41,22 @@ https://www.rejetto.com/hfs/?f=intro
 
 四、Docker
 
+网络参数配置：
+
+1   dhclient
+
+2   ip addr
+
+3   ping  114.114.114.114  -c 4
+
+4   ping www.baidu.com   -c 4
+
+docker 安装    https://docs.docker.com/engine/install/centos/
+
+Nginx 容器版安装 https://hub.docker.com/_/nginx
+
+参考：
+
 1、https://github.com/wuabc/is/blob/master/%E7%AC%AC14%E5%91%A8-docker
 
 2、https://github.com/wuabc/is/blob/master/%E7%AC%AC15%E5%91%A8-docker
