@@ -55,6 +55,8 @@ docker 安装    https://docs.docker.com/engine/install/centos/
 
 Nginx 容器版安装 https://hub.docker.com/_/nginx
 
+宝塔面板 https://hub.docker.com/search?q=baota&type=image
+
 参考：
 
 1、https://github.com/wuabc/is/blob/master/%E7%AC%AC14%E5%91%A8-docker
