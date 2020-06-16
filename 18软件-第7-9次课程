@@ -1,6 +1,18 @@
 
 一、Docker
 
+加速器
+
+/etc/docker/daemon.json 
+
+{
+
+"registry-mirrors": ["https://ywsir56s.mirror.aliyuncs.com"],
+
+  "insecure-registries":["172.24.21.84:5000"]
+
+}
+
 1、每天5分钟玩转Docker容器技术 
 
 （1） https://zhuanlan.zhihu.com/p/32324673  [知乎 有图]
