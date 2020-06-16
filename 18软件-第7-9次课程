@@ -47,6 +47,8 @@ docker-ce  阿里镜像   https://developer.aliyun.com/mirror/docker-ce?spm=a2c6
  
  （4）Discuz    https://hub.docker.com/r/skyzhou/docker-discuz/
  
+       避坑指南 ：  mysql:5      mysql 指定 版本5 
+ 
  （5）phpmyadmin   https://hub.docker.com/r/phpmyadmin/phpmyadmin
  
  （6）dns server  https://hub.docker.com/r/cosmicq/docker-bind/
