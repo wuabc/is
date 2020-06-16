@@ -1,0 +1,48 @@
+
+一、Docker
+
+1、每天5分钟玩转Docker容器技术 
+
+（1） https://zhuanlan.zhihu.com/p/32324673  [知乎 有图]
+
+（2）https://zhuanlan.zhihu.com/p/32356831   [知乎 有图]
+
+（3）https://zhuanlan.zhihu.com/p/32383774  [知乎 有图]
+
+（4）https://zhuanlan.zhihu.com/p/32462416  [知乎 有图]
+
+（5）阿里云版本   https://yq.aliyun.com/articles/311483?utm_content=m_38129  【根据（6）对照搜索】
+
+（6）文字完整、无图   https://www.cnblogs.com/CloudMan6/tag/Docker/
+
+2、实验参考
+
+（1）https://github.com/wuabc/is/blob/master/%E7%AC%AC14%E5%91%A8-docker
+
+（2）https://github.com/wuabc/is/blob/master/%E7%AC%AC15%E5%91%A8-docker
+
+3、练习
+
+（1） hello-world
+
+ （2） nginx  https://hub.docker.com/_/nginx/
+ 
+ （3） 宝塔面板  baota
+ 
+ （4）Discuz    https://hub.docker.com/r/skyzhou/docker-discuz/
+ 
+ （5）phpmyadmin   https://hub.docker.com/r/phpmyadmin/phpmyadmin
+ 
+ （6）dns server  https://hub.docker.com/r/cosmicq/docker-bind/
+ 
+ （7）showDoc 容器安装方案    https://www.showdoc.cc/help?page_id=65610
+ 
+ （8）Weave Scope 容器地图    https://yq.aliyun.com/articles/311403?spm=a2c4e.11153940.0.0.4a8c5f2eqnpcA9
+ 
+ （9）构建镜像   https://yq.aliyun.com/articles/311472?spm=a2c4e.11153940.0.0.4e7d1f9ch6CakB
+ 
+ （10）wordpress
+ 
+ （11）seafile
+ 
+ 
