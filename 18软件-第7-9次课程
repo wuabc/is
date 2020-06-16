@@ -1,6 +1,10 @@
 
 一、Docker
 
+阿里开源镜像站  https://developer.aliyun.com/mirror/
+
+docker-ce  阿里镜像   https://developer.aliyun.com/mirror/docker-ce?spm=a2c6h.13651102.0.0.3e221b11v4rTSc
+
 加速器
 
 /etc/docker/daemon.json 
