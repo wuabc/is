@@ -59,9 +59,7 @@ docker-ce  阿里镜像   https://developer.aliyun.com/mirror/docker-ce?spm=a2c6
  
  （9）构建镜像   https://yq.aliyun.com/articles/311472?spm=a2c4e.11153940.0.0.4e7d1f9ch6CakB
  
- （10）wordpress
- 
- （11） docker-compose
+ （10） docker-compose
          
          yum install -y epel-release
          
@@ -70,8 +68,28 @@ docker-ce  阿里镜像   https://developer.aliyun.com/mirror/docker-ce?spm=a2c6
          docker-compose  -version
          
          参考：https://docs.docker.com/compose/
-         
- 
- （11）seafile    https://cloud.seafile.com/published/seafile-manual-cn/docker/%E7%94%A8Docker%E9%83%A8%E7%BD%B2Seafile.md
  
  
+ （11）wordpress
+ 
+     https://docs.docker.com/compose/wordpress/
+   
+ （12）seafile    https://cloud.seafile.com/published/seafile-manual-cn/docker/%E7%94%A8Docker%E9%83%A8%E7%BD%B2Seafile.md
+ 
+ 避坑指南：  https://segmentfault.com/q/1010000019415203
+ 
+ 使用docker network create [name] 命令创建网络
+
+在docker-compose.yml文件中，于services同级、也就是根级，写一个networks
+
+另外强调一下，必须在compose.yml中指明version大于1才可以使用networks
+
+例如：
+
+networks:
+
+  laravel:
+
+    external: true
+    
+    
