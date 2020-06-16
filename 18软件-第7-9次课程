@@ -39,11 +39,11 @@ docker-ce  阿里镜像   https://developer.aliyun.com/mirror/docker-ce?spm=a2c6
 
 3、练习
 
-（1） hello-world
+（1） hello-world   docker  run   hello-world
 
  （2） nginx  https://hub.docker.com/_/nginx/
  
- （3） 宝塔面板  baota
+ （3） 宝塔面板  baota   https://hub.docker.com/r/pch18/baota
  
  （4）Discuz    https://hub.docker.com/r/skyzhou/docker-discuz/
  
