@@ -1,0 +1,160 @@
+
+期末作业提交：   http://docs.gdyvc.cn:88/
+
+1、新建“平时实验截图汇总”文件夹，共享给： wuabc
+2、新建“期末作业”文件夹，共享给： wuabc
+3、2020年7月13日   22：00 截止 【网站可能关闭或禁止更新】
+4、若有话要说，新建txt文本，文件名：one more thing
+
+
+实验1  浏览器分析工具 【必做】
+
+借助Chrome浏览器调试功能，实现目标网站的素材抓取
+
+1、从目标网站抓取文本内容；
+
+例如：https://ks.wjx.top/jq/59592050.aspx
+
+2、从目标网站抓取图片文件；例如  apple中国
+
+3、从目标网站抓取音频/视频文件；  虾米
+
+4、动态修改ccs：  网页灰度设置
+
+============================================================================================
+
+实验2  DVWA 【必做】
+
+1、Homepage: http://www.dvwa.co.uk/
+
+     Project Home: https://github.com/ethicalhack3r/DVWA
+     
+     Created by the DVWA team
+
+2、Docker image for DVWA(Damn Vulnerable Web Application)
+
+https://github.com/infoslack/docker-dvwa
+
+Using
+
+Pull image：
+
+	 docker pull infoslack/dvwa
+        
+Start with random mysql password:
+
+                docker run -d -p 280:80 infoslack/dvwa
+                
+Or set environment variable: 
+
+                 docker run -d -p 80:80 -p 3306:3306 -e MYSQL_PASS="mypass" infoslack/dvwa
+
+3、必做实验
+
+https://www.freebuf.com/author/lonehand
+（1）命令注入  【级别：低、中、高】https://www.freebuf.com/articles/web/116714.html
+（2）SQL注入  【级别：低】 https://www.freebuf.com/articles/web/120747.html
+（3）SQL注入（blind）【级别：低】 https://www.freebuf.com/articles/web/120985.html
+（4）XSS【级别：低、中】https://www.freebuf.com/articles/web/123779.html
+
+
+============================================================================================
+
+实验3  数据隐写和加密 【必做】
+
+###  使用Openpuff完成如下数据隐写实验   
+
+官网（中文） https://embeddedsw.net/OpenPuff_Steganography_Home_zh.html
+
+1、给图片加水印，并印证（check mark）；
+
+2、将数据隐藏到图片文件中；
+
+============================================================================================
+
+实验4     利用 Burp suite 完成实验   【必做】
+
+1、监听及抓包显示账号密码    http://erji.net/
+
+2、侦听及数据篡改； （若没有靶场，自建discuz论坛，完成该实验）
+
+============================================================================================
+
+实验5  网络侦听  wireshark   【必做】
+
+
+officical site： https://www.wireshark.org/
+
+download： https://www.wireshark.org/download.html
+
+
+参考： https://www.jianshu.com/p/55ec409c739e
+
+http.request.method==POST
+
+ip.dst == 129.204.174.19
+
+ip.src == 129.204.174.19
+
+1、监听及抓包显示账号密码    http://erji.net/
+
+============================================================================================
+
+实验6   代理服务器
+
+使用代理服务器软件实现http代理功能
+
+可以提交平时作业截图
+
+1、cproxy代理服务设置； （选做）
+
+2、squid代理服务设置；    （选做）
+
+
+============================================================================================
+
+
+实验7  docker   【选做，加分】
+
+阿里开源镜像站  https://developer.aliyun.com/mirror/
+
+docker-ce  阿里镜像   https://developer.aliyun.com/mirror/docker-ce?spm=a2c6h.13651102.0.0.3e221b11v4rTSc
+
+加速器
+
+/etc/docker/daemon.json 
+
+{
+
+"registry-mirrors": ["https://ywsir56s.mirror.aliyuncs.com"],
+
+  "insecure-registries":["172.24.21.84:5000"]
+
+}
+
+1、nginx  https://hub.docker.com/_/nginx/
+       建立3个nginx 容器，以端口号区分
+      例如:  http://ip:91      http://ip:92       http://ip:93
+
+2、Discuz    https://hub.docker.com/r/skyzhou/docker-discuz/
+       避坑指南 ：  mysql:5      mysql 指定 版本5 
+
+3、用 docker-compose 搭建 wordpress 容器
+       
+         yum install -y epel-release
+         
+         yum  install  -y   docker-compose
+         
+         docker-compose  -version
+         
+         参考：https://docs.docker.com/compose/
+ 
+        wordpress     https://docs.docker.com/compose/wordpress/
+
+4、自主选择并搭建容器实例  【加分】
+
+============================================================================================
+
+   
+ 
+
